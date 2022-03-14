@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family:  'Fredoka', sans-serif;
+}
+
+#navbar{
+    background-color:#a7aeb5;
+    padding: 13px 14px;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Fredoka', sans-serif;
+    font-size:larger;
+    font-weight: bold;
+}
+#logo img{
+    height:55px;
+    filter: invert(1);
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items:center;
+    /* margin: 0 14px; */
+    margin: -13px 6px;
+    font-size: 15px;
+    /* margin-right: 40px; */
+}
+#navbar ul{
+display: flex;
+flex-direction: row;
+/* justify-content: center; */
+align-items: center;
+
+}
+#navbar li{
+list-style-type: none;
+padding: 4px 7px;
+}
+#navbar li a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: white;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introSection{
+height: 425px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-size:50px;
+font-family: 'Fredoka', sans-serif;
+padding-bottom:40px;
+background-color: rgb(187 43 43);
+background: center/cover no-repeat url('../static/bg_dance.jpg');
+
+}
+#introSection div.small{
+    font-size: 35px;
+    padding: 15px;
+
+}
+#MissionSection{
+
+    height: 326px;
+    width: 86%;
+    display: block;
+    margin: auto;
+    /* background-color: grey; */
+}
+#MissionSection h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 6px;
+}
+ .card
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 22px;
+    height: 181px;
+    display:inline-block;
+}
+.card h3{
+    text-align: center;
+    margin:12px;
+    font-family:  'Fredoka', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card-img img{
+    height: 150px;
+    padding: 21px 0px;
+    margin-top: 10px;
+}
+.card-content p{
+    color:black;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 300;
+}
+
+#sponsorsSection{
+    height: 280px;
+background-color:#b9a8a84d;
+}
+#sponsors{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.spn-img{
+    height: 105px;
+    margin: 58px 22px;
+    padding: 0px 18px;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top:20px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+}
+#footer{
+ height: 70px;
+ background-color:black;
+ color: white;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 18px;
+ font-family: 'Fredoka', sans-serif;
+ font-weight: 100;
+}
