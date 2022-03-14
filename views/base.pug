@@ -1,0 +1,25 @@
+//base.pug
+doctype html
+html
+  head
+    title Kavya dance academy
+    block scripts
+      script(src='/static/index.js')
+    block style 
+        style 
+            include ../static/style.css
+  body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/image/logo.png", alt="404")
+                | KDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact Us]
+    block content
+    footer#footer
+     Copyright © 2022 KavyaDanceAcademy.com | All right reserved
+      
